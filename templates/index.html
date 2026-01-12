@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Transaction Fraud Detection</title>
+</head>
+<body>
+    <h2>Transaction Fraud Detection (Kaggle Dataset)</h2>
+    <form method="post">
+        <input name="amount" placeholder="Transaction Amount" required><br><br>
+        <input name="oldbalanceOrg" placeholder="Sender Old Balance" required><br><br>
+        <input name="newbalanceOrig" placeholder="Sender New Balance" required><br><br>
+        <input name="oldbalanceDest" placeholder="Receiver Old Balance" required><br><br>
+        <input name="newbalanceDest" placeholder="Receiver New Balance" required><br><br>
+        <button type="submit">Predict</button>
+    </form>
+    <h3>{{ prediction }}</h3>
+</body>
+</html>

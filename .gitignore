@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.env
+model/fraud_model.pkl
+dataset/transactions.csv
